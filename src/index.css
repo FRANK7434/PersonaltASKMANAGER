@@ -1,24 +1,5 @@
-@tailwind base;
+ @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom global styles */
-body {
-  @apply min-h-screen;
-  background-image: url("https://images.pexels.com/photos/7594476/pexels-photo-7594476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* Optional: Add a gradient overlay */
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for visibility */
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-  body {
-    background-position: top;
-    background-size: contain;
-  }
-}
+ 
